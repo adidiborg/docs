@@ -1,0 +1,50 @@
+site_name: adidiborg Docs
+theme:
+  logo: assets/logo.gif
+  favicon: images/logo.gif
+  name: material
+  palette:
+    - primary: black
+    - font:
+      code: Roboto Mono
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+  plugins:
+    - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/adidiborg
+      name: tweeting on
+    - icon: fontawesome/brands/github 
+      link: https://github.com/adidiborg
+      name: coding on
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/adidiborg/
+      name: professional on
+    - icon: fontawesome/brands/instagram 
+      link: https://instagram.com/adidiborg
+      name: photography on
+copyright: Copyright &copy; 2022 - ♾️ Aditya Borgaonkar
+repo_url: https://github.com/adidiborg/docs.adidiborg.github.io
