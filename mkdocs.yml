@@ -1,20 +1,15 @@
 site_name: adidiborg Docs
 theme:
   logo: assets/logo.gif
-  favicon: images/logo.gif
   name: material
   palette:
     - primary: black
     - font:
       code: Roboto Mono
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -24,11 +19,12 @@ theme:
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - navigation.instant
   plugins:
     - search
 
